@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
-  const toast = useToast();
+  const { toast } = useToast();
 
   const handleAddToCart = (e) => {
     e.preventDefault();
