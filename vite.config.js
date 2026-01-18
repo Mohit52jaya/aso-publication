@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/aso-publication/",   // keep ONLY if repo name = aso-publication
+  base: "/",   // REQUIRED for custom domain
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
