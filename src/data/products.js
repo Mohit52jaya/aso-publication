@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    title: "SSC General Awareness Complete Guide 2026",
+    title: "SSC Mohit Awareness Complete Guide 2026",
     description:
       "Comprehensive guide covering all topics for SSC exams with latest syllabus.",
     price: 450,
