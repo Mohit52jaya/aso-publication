@@ -5,12 +5,12 @@
   "private": true,
 
   "scripts": {
-    "dev": "vite --host --port 3000",
-    "build": "vite build"
-    "preview": "vite preview --host --port 3000",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:warn": "eslint ."
-  },
+  "dev": "vite --host --port 3000",
+  "build": "vite build",
+  "preview": "vite preview --host --port 3000",
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+  "lint:warn": "eslint ."
+}
 
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.4",
